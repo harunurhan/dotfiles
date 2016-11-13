@@ -19,7 +19,11 @@ Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 syntax enable
+let g:solarized_termtrans = 1                                                   
+let g:solarized_termcolors=256  
+set background=dark
 colo solarized
+let g:airline_theme='solarized'
 
 filetype plugin indent on
 set number "enable line number
